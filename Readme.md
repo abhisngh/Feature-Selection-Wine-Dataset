@@ -106,11 +106,17 @@ Top reasons to use feature selection are:
 
 In this Project we have used the three techinques for Feature Selection, i.e
  * [KBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
+
   The SelectKBest class just scores the features using a function (in this case f_classif but could be others) and then "removes all but the k highest scoring features".
+
  * [ExtraTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html)
+
  Extremely Randomized Trees Classifier(Extra Trees Classifier) is a type of ensemble learning technique which aggregates the results of multiple de-correlated decision trees collected in a “forest” to output it’s classification result.
+
  * [Heat Map](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
+
  A heatmap contains values representing various shades of the same colour for each value to be plotted. Usually the darker shades of the chart represent higher values than the lighter shade. For a very different value a completely different colour can also be used.
+ 
 
 STEPS INVOLVED
 -------------------------------
